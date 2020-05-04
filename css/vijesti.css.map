@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,MAAM,EAAE,WAAW;EACnB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,IAAI;EACd,qBAAqB,EAAE,WAAW;CACrC;;AAED,AAAA,OAAO,CAAA;EACH,WAAW,EAAE,GAAG;EAChB,QAAQ,EAAE,GAAG;CAChB;;AAED,AAAA,UAAU,CAAA;EACN,WAAW,EAAE,GAAG;EAChB,QAAQ,EAAE,GAAG;EACb,gBAAgB,EAAE,KAAK;CAC1B",
-    "sources": [
-        "vijesti.scss"
-    ],
-    "names": [],
-    "file": "vijesti.css"
-}

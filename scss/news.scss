@@ -1,0 +1,19 @@
+.news-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-gap: 10px;
+}
+
+.news-header{
+    grid-column: 1/4;
+}
+
+.news-mid{
+    grid-column: 2/3;
+}
+
+.card{
+    margin: 10px;
+}
