@@ -18,6 +18,10 @@
   margin: 10px;
 }
 
+.paginationdiv {
+  grid-column: 2/3;
+}
+
 .main-container {
   height: 100vh;
   width: 100vw;
