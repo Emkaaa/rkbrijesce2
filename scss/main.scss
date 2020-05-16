@@ -3,10 +3,11 @@
 
 .main-container{
  
-    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 10% 28.5% 28.5% 25% 10%;
+    grid-gap: 0px;
+    grid-template-columns: 10% 27.5% 27.5% 25% 10%;
     grid-template-rows: min-content min-content min-content min-content;
 
 }
@@ -27,21 +28,26 @@
 .main-carousel{
     grid-column: 2/4;
     grid-row: 2/3;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .main-table{
     grid-column: 4/5;
     grid-row: 2/4;
+    padding: 5px;
 }
 
 .main-match-prev{
     grid-column: 2/3;
     grid-row: 3/4;
+    padding: 5px;
 }
 
 .main-match-next{
     grid-column: 3/4;
     grid-row: 3/4;
+    padding: 5px;
 }
 
 .main-match-card{

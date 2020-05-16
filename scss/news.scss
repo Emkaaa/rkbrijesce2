@@ -1,9 +1,9 @@
 .news-container{
-    width: 100vw;
-   
+    width: 100%;
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-gap: 10px;
+    grid-gap: 0px;
+    overflow-x: hidden;
 }
 
 .news-header{
@@ -12,10 +12,11 @@
 
 .news-mid{
     grid-column: 2/3;
+    margin-top: 10px;
 }
 
 .card{
-    margin: 10px;
+    margin: 0px;
 }
 
 .paginationdiv{
